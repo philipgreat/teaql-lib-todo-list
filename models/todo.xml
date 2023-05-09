@@ -7,7 +7,7 @@
     />
     <merchant 
         name="双链科技"
-        platform="merchant()"
+        platform="platform()"
     />
 
     <todo_item
