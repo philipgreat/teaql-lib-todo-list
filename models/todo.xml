@@ -1,0 +1,26 @@
+<root name="todo" org="doublechaitech" version="0.0.22">
+    <platform 
+
+        name="todo platform"
+        create_time="createTime()"
+
+    />
+    <merchant 
+        name="双链科技"
+        platform="merchant()"
+    />
+
+    <todo_item
+
+        name="申报个人所得税"
+        status="DONE|WORK"        
+        create_time="createTime()"
+        update_time="2090-01-01T10:10:10"
+        merchant="merchant(context)"
+    />
+
+    
+
+
+
+</root>
