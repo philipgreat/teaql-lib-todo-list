@@ -7,7 +7,7 @@ all:
 	
 	echo "" >> models/logs.logs 
 	git add -A ./
-	echo "${VERSION}"
-	echo "${FIRST_LINE}"
+	@echo "${VERSION}"
+	@echo "${FIRST_LINE}"
 	git commit -m "update to version: ${VERSION}"
 	#git push
