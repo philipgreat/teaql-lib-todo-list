@@ -9,5 +9,6 @@ VERSION := $(shell bash get-version.sh)
 
 all:
 	git add -A ./
+	bash increase-version.sh
 	git commit -m "update to version: ${VERSION}"
 	git push
