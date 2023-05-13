@@ -1,4 +1,0 @@
-<?xml version="1.0"?>
-<root name="todo" org="doublechaintech" version="123">
-  <include file="todo.xml"/>
-</root>
