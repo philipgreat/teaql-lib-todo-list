@@ -14,4 +14,4 @@ all:
 	cat models/logs.logs  | awk -F'"' '{print $$6}' > current.version
 	#@echo "$(shell cat current.version)"
 	git commit -m "update to version: $(shell cat current.version)"
-	#git push
+	git push
