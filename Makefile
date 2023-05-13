@@ -1,7 +1,7 @@
 
 
 
-VERSION := $(shell date +'%Y-%m-%dT%H:%M')
+VERSION := $(shell date +'%Y-%m-%dT%H-%M')
 
 all:
 	
